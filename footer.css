@@ -1,0 +1,90 @@
+
+.footer
+{
+    position: absolute;
+    bottom: 0;
+    background-color: #625CB6;
+    height: 300px;
+    width: 1440px;
+
+}
+.footer p
+{
+    color: white;
+}
+.left-footer
+{
+    position: absolute;
+    top: 30px;
+    left: 140px;
+}
+.footer-name
+{
+    font-weight: 600;
+    font-size: 25px;
+    margin: 25px;
+    
+    
+}
+.footer-role
+{
+    position: absolute;
+    left: 25px;
+}
+.middle-footer
+{
+    
+    height: 100px;
+    width: 550px;
+    display: flex;
+    position: absolute;
+    top: 45px;
+    left: 600px;
+    
+}
+.copyrights
+{
+    position: absolute;
+    top: 240px;
+    left: 565px;
+}
+.middle-footer p{
+    
+    margin: 35px 10px 60px 10px;
+}
+.right-footer
+{
+    position: absolute;
+    top: 60px;
+    right: 180px;
+}
+.footer-follow
+{
+    position: absolute;
+    font-size: 15px;
+    top: 0px;
+}
+.footer-fb-icon
+{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 60px;
+    left: -40px;
+}
+.footer-insta-icon
+{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 60px;
+    left: 15px;
+}
+.footer-twitter-icon
+{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 60px;
+    left: 75px;
+}

@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Portfolio
+        </title>
+
+
+        <link rel="stylesheet" href="portfolio.css">
+        <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="about.css">
+        <link rel="stylesheet" href="skill-page.css">
+        <link rel="stylesheet" href="theme.css">
+        <link rel="stylesheet" href="contact-page.css">
+        <link rel="stylesheet" href="animations.css">
+        <script src = "portfolio.js"></script>
+
+
+    </head>
+
+
+    <body>
+
+        <div class = "header">
+
+            
+
+            <a class = "name" href="amazon.in" target="_blank">Gokulaprasad</a>
+            
+            
+            <div class = "right-section">
+                <p>
+                <a class = "home-button-menu" href="#home-nav">Home</a>
+                </p>
+
+                <p>
+                <a class = "about-button-menu" href="#about-nav">About</a>
+                </p>
+
+                <p>
+                <a class = "skills-menu-button" href="#skill-nav">Skills</a>
+                </p>
+
+                <p>
+                <a class = "contact-button-menu" href = "#contact-nav">Contact<a>
+                </p>
+
+
+                <label class = "switch">
+                    <input onclick="theme_mode()" type="checkbox">
+                    <span class = "slider"></span>
+                </label>
+                
+            </div>
+
+        </div>
+
+        <!-- Creating home page -->
+        <div id = "home-nav" class = "home-page">
+            
+            <div class = "home-contents">
+
+                <div class = "typewriter">
+                <p class = "intro">Hi, I am Gokulaprasad</p>
+                </div>
+                <p class = "role">I'm an Front-end Developer</p>
+                <p class = "description">
+                    I create stunning websites for your<br> personal brand or business.<br> Highly experienced in web-design and development.
+                </p>
+
+                <p class = "contact-style">
+                <a class = "contact" href="#contact-nav">Contact me</a>
+                </p>
+
+                
+            </div>
+            <div class = "icons">
+                <a href="google.com">
+                <img class = "facebook" src = "Images/icons8-facebook-f.svg">
+                </a>
+    
+                <a href="https://www.instagram.com/me.pras_/" target="_blank">
+                <img class = "instagram" src = "Images/icons8-instagram.svg">
+                </a>
+    
+                <a href="https://twitter.com/PrasadGokula" target="_blank">
+                <img class = "twitter" src = "Images/icons8-twitter.svg">
+                
+            </a>
+            </div>
+        </div>
+
+        
+
+        <!-- Creating about page-->
+
+        <div  class = "about-page">
+            <p  class = "overlay-about">
+                About Me
+            </p>
+            <p  class = "about">
+                About Me 
+            </p>
+
+            <!--creating a non visible element to navigate correctly-->
+            <p id = "about-nav" class = "abt-nav">abt-nav</p>
+            <div class = "about-content">
+                
+                
+                <p class = "about-name">
+                    I'm Gokulaprasad
+                </p>
+                <p class = "about-role">
+                    A Lead <span style = "color: #625CB6;">Front-end Developer</span> based in <span style = "color: #625CB6;">India</span>
+                </p>
+                <p class = "about-description">
+                    I design and develop services for customers specializing <br>creating stylish, modern websites, web services and online stores.
+                    <br> My passion is to design digital user experiences through <br>meaningful interactions. Check out my Portfolio.
+                </p>
+                <hr class="line">
+
+                <a href="https://drive.google.com/file/d/13JR9L8Wmrml61VHhtv6F4mkScZNEtoC_/view?usp=sharing" target="_blank" class = "download">
+                    Download CV 
+                </a>
+            </div>
+        </div>
+
+
+        <div class = "skill-page">
+            
+                
+
+            <div class = "skill-content">
+
+                <p class = "overlay-skills">Skills</p>
+                <p  class = "skills">Skills</p>
+                <p id = "skill-nav" class = "skill-nav">skill-nav</p>
+                <p  class = "edu-skills">Education & Skills</p>
+                <p class = "skill-description">My drive extends beyond just acquiring skills; it's about crafting meaningful solutions and making a genuine impact.</p>
+
+                <button class = "education-button">Education</button>
+                <div class = "edu-box-one">
+                    <p class = "year">2020-2022</p>
+                    <p class = "degree">High school</p>
+                    <p class = "location">Zion Matriculation Higher secondary school</p>
+                </div>
+
+                <div class = "edu-box-two">
+                    <p class = "year">2022-2025</p>
+                    <p class = "degree">Bachelors in Information Technology</p>
+                    <p class = "location">Gurunanak college</p>
+                </div>
+
+                
+
+                <button class = "skills-button">Skills</button>
+                <div class = "skill-box">
+                    <img class = "verified-symbol-html" src = "Images/icons8-verified-30.png">
+                    <p class = "verified-text-html">HTML5 & CSS3</p>
+
+                    <img class = "verified-symbol-css" src = "Images/icons8-verified-30.png">
+                    <p class = "verified-text-css">JS ES6</p>
+
+                    <img class = "verified-symbol-iot" src = "Images/icons8-verified-30.png">
+                    <p class = "verified-text-iot">React</p>
+
+                    <img class = "verified-symbol-networking" src = "Images/icons8-verified-30.png">
+                    <p class = "verified-text-networking">Figma</p>
+                </div>
+                </div>
+
+
+                <button class = "certification-button">Certification</button>
+
+                <div class = "certification-box">
+
+                <div class = "cert-box-one">
+                    <p class = "cert"> META verified Front-end developer</p>
+
+                <div class = "cert-box-two">
+                    <p class = "network">Self-made ninja certified Full stack developer</p>
+                </div>
+
+                <div class = "cert-box-three">
+                    <p class = "IOT">Google UX design professional certification</p>
+                    
+                </div>
+
+                
+                
+            
+            </div>
+        </div>
+
+</div>
+
+
+        <div class = "contact-page">
+
+
+
+
+            <div class = "contact-page">
+                <p class = "contact-title">
+                    Contact
+                </p>
+                <p class = "contact-overlay">Contact</p>
+                <p id = "contact-nav" class = "contact-nav" >contact-nav</p>
+                <div class = "left">
+                
+                    <p  class = "title">
+                        Let's discuss your project
+                    </p>
+                    
+                    <img class = "phone-icon" src="Images/icons8-phone-100.png">
+                    <p class = "phone">Phone</p>
+                    <p class = "number">+91 9962181507</p>
+            
+                    <img class = "email-icon" src="Images/icons8-email-100.png">
+                    <p class = "title-mail">Email Address</p>
+                    <p class = "mail">gokulaprasad2004@gmail.com</p>
+            
+                </div>
+            
+            
+                <div class = "right">
+                    <p  class = "right-title">
+                        I am always open to discussing about product design work or partnerships.
+                    </p>
+            
+                    <input class = "name-input" type="text" placeholder="Name">
+                    <input class = "email" type="text" placeholder="Email">
+                    <input class = "subject" type="text" placeholder="Subject">
+                    <input class = "message" type="text" placeholder="Message">
+            
+                    <a class = "send-message" href="mailto:gokulaprasad2004@gmail.com">Send Message
+                        <img class = "telegram-icon" src="Images/icons8-telegram.svg">
+                    </a>
+            
+    
+                </div>
+            </div>
+    
+            
+        </div>
+
+
+
+        </div>
+    
+        <div class = "footer">
+            <div class = "left-footer">
+                <p class = "footer-name">Gokulaprasad</p>
+                <p class = "footer-role">Front-end Developer</p>
+                
+            </div>
+
+            <div class = "middle-footer">
+
+                <a href="#home-nav">
+                    <p class = "footer-home">Home</p>
+                </a>
+    
+                <a href="#about-nav">
+                <p class = "footer-about">About</p>
+                </a>
+
+                <a href="#skill-nav">
+                <p class = "footer-skill">Skills</p>
+                </a>
+
+                
+                <a href="#contact-nav">
+                <p class = "footer-contact">Contact</p>
+                </a>
+            </div>
+                <p class = "copyrights">© 2023 by Gokulaprasad. All rights reserved.</p>
+            
+
+            <div class = "right-footer">
+                <p class = "footer-follow">Follow</p>
+
+                <a href="https://www.instagram.com/me.pras_/" target="_blank">
+                <img class = "footer-fb-icon" src="Images/icons8-fwhite.svg">
+                </a>
+
+                <a href="https://www.instagram.com/me.pras_/" target="_blank">
+                <img class = "footer-insta-icon" src="Images/icons8-instagramwhite.svg">
+                </a>
+
+                <a href="https://twitter.com/PrasadGokula" target="_blank">
+                <img class = "footer-twitter-icon" src="Images/icons8-twitter-30white.png">
+            </a>
+
+            </div>
+        </div>
+        
+    </div>
+
+    </body>
+</html>

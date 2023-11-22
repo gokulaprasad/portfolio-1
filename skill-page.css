@@ -1,0 +1,285 @@
+
+.skill-page
+{
+    width: 1440px;
+    height: 850px;
+    position: relative;
+    z-index: 888;
+}
+.skill-content
+{
+    position: absolute;
+    left: 200px;
+    width: 100%;
+    height: 850px;
+}
+.overlay-skills
+{
+    position: absolute;
+    left: 380px;
+    font-weight: 900;
+    font-size: 75px;
+    color: rgb(224, 224, 224);
+    
+}
+.skill-nav
+{
+    position: absolute;
+    top: 110px;
+    color: transparent;
+}
+.skills
+{
+    position:absolute;
+    top: 60px;
+    left: 420px;
+    font-weight: 700;
+    font-size: 50px;
+    
+}
+
+.edu-skills
+{
+    position: absolute;
+    width: 250px;
+    font-weight: 800;
+    font-size: 27px;
+    top: 200px;
+    
+}
+.skill-description
+{
+    width: 800px;
+    position: absolute;
+    font-weight: 600;
+    color: gray;
+    top: 260px;
+    
+}
+.education-button
+{
+    position: absolute;
+    top: 360px;
+    width: 100px;
+    height: 28px;
+    border: none;
+    background-color: #625CB6;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    color: white;
+    
+    
+
+}
+
+.edu-box-one p
+{
+    margin: 5px 0px 5px 0px;
+}
+.edu-box-two p
+{
+    margin: 5px 0px 5px 0px;
+}
+.edu-box-three p
+{
+    margin: 5px 0px 5px 0px;
+}
+
+.edu-box-one
+{
+    width: 380px;
+    height: 100px;
+    position: absolute;
+    top: 410px;
+    padding: 5px 15px 0px 15px;
+    border-bottom:3px solid #625CB6;
+    border-radius: 5px;
+    box-shadow: 2px 3px 14px 3px rgba(208, 208, 208, 0.7);
+
+    
+}
+
+.edu-box-two
+{
+    width: 380px;
+    height: 100px;
+    position: absolute;
+    top: 540px;
+    padding: 5px 15px 0px 15px;
+    border-bottom:3px solid #625CB6;
+    border-radius: 5px;
+    box-shadow: 2px 3px 14px 3px rgba(208, 208, 208, 0.7);
+
+    
+}
+
+.edu-box-three
+{
+    width: 380px;
+    height: 100px;
+    position: absolute;
+    top: 650px;
+    padding: 5px 15px 0px 15px;
+    border-bottom:3px solid #625CB6;
+    border-radius: 5px;
+    box-shadow: 2px 3px 14px 3px rgba(208, 208, 208, 0.7);
+
+    
+}
+
+.skills-button
+{
+    position: absolute;
+    top: 360px;
+    left: 500px;
+    width: 80px;
+    height: 28px;
+    border: none;
+    background-color: #625CB6;
+    font-size: 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+
+}
+.skill-box
+{
+    position: absolute;
+    top: 410px;
+    left: 500px;
+    width: 200px;
+    height: 270px;
+    box-shadow: 2px 3px 14px 3px rgba(208, 208, 208, 0.7);
+    padding-top: 50px;
+    border-bottom: 3px solid #625CB6;
+}
+.skill-box img
+{
+    width: 25px;
+    height: 25px;
+}
+
+.verified-symbol-html
+{
+    position:absolute;
+    margin-left: 15px;
+    top: 55px;
+}
+.verified-text-html
+{
+    position: absolute;
+    top: 55px;
+    left: 55px;
+}
+.verified-symbol-css
+{
+    position: absolute;
+    margin-left: 15px;
+    top: 115px;
+    left: 0px;
+}
+.verified-text-css
+{
+    position: absolute;
+    top: 115px;
+    left: 55px;
+
+}
+.verified-symbol-iot
+{
+    position: absolute;
+    margin-left: 15px;
+    top: 175px;
+    left: 0px;
+}
+.verified-text-iot
+{
+    position: absolute;
+    top: 175px;
+    left: 55px;
+}
+.verified-symbol-networking
+{
+    position: absolute;
+    margin-left: 15px;
+    top: 235px;
+    left: 0px;
+}
+.verified-text-networking
+{
+    position: absolute;
+    top: 235px;
+    left: 55px;
+}
+
+.certification-button
+{
+
+    position: absolute;
+    top: 360px;
+    right: 340px;
+    width: 120px;
+    height: 28px;
+    border: none;
+    background-color: #625CB6;
+    font-size: 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    padding: 3px 5px 3px 5px;
+
+}
+
+.certification-box-one p
+{
+    margin: 0;
+    line-height: 25px;
+}
+.cert-box-one
+{
+    display: flex;
+    width: 350px;
+    height: 80px;
+    position: absolute;
+    top: 410px;
+    right: 75px;
+    padding-left: 35px;
+    box-shadow: 2px 3px 14px 3px rgba(208, 208, 208, 0.7);
+    border-bottom: 3px solid #625CB6;
+    border-radius: 5px;
+    justify-content:left;
+    align-items:center;
+    
+}
+.cert-box-two
+{
+    display: flex;
+    width: 350px;
+    height: 80px;
+    position: absolute;
+    top: 105px;
+    right: 0px;
+    padding-left: 35px;
+    box-shadow: 2px 3px 14px 3px rgba(208, 208, 208, 0.7);
+    border-bottom: 3px solid #625CB6;
+    border-radius: 5px;
+    justify-content:left;
+    align-items:center;
+}
+.cert-box-three
+{
+    display: flex;
+    width: 350px;
+    height: 80px;
+    position: absolute;
+    top: 210px;
+    right: 0px;
+    padding-left: 35px;
+    box-shadow: 2px 3px 14px 3px rgba(208, 208, 208, 0.7);
+    border-bottom: 3px solid #625CB6;
+    border-radius: 5px;
+    justify-content:left;
+    align-items:center;
+
+}

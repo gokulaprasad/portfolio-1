@@ -1,0 +1,22 @@
+.left
+{
+    width: 400px;
+    height: 400px;
+    background-color: lightcoral;
+    position:absolute ;
+    top: 4000px;
+    display: flex;
+
+}
+.title
+{
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 25px;
+}
+.phone-icon
+{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+}

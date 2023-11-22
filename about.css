@@ -1,0 +1,82 @@
+
+.about-page
+{
+    position: relative;
+    width: 1440px;
+    height: 850px;
+    
+}
+.about-content
+{
+    position: absolute;
+    top:250px;
+    right: 50px;
+    width:600px;
+    height: 300px;
+    
+}
+
+.overlay-about 
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 15px;
+    font-weight: 900;
+    font-size: 75px;
+    color: rgb(224, 224, 224);
+    
+    
+}
+.abt-nav
+{
+    color: transparent;
+    position: relative;
+    top: -50px;
+}
+.about
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 50px;
+    margin-top:-55px;
+}
+
+.about-name
+{
+    font-weight: 600;
+    font-size: 25px;
+}
+.about-role
+{
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.about-description
+{
+    font-weight: 500;
+    font-size: 18px;
+    color: gray;
+}
+.line
+{
+    margin-top: 35px;
+}
+.download
+{
+    position: absolute;
+    top: 280px;
+    width: 120px;
+    height: 30px;
+    background-color: #625CB6;
+    padding: 15px 10px 10px 25px;
+    border-radius: 5px;
+    color: white;
+    
+}

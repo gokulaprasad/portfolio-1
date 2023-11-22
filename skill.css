@@ -1,0 +1,260 @@
+
+
+.skill-page
+{
+    width: 1200px;
+    height: 800px;
+    position: absolute;
+    left: 240px;
+    
+    display: flex;
+}
+.overlay-skills
+{
+    position: absolute;
+    top:0;
+    left: 400px;
+    font-family: poppins;
+    font-weight: 900;
+    font-size: 75px;
+    color: rgb(224, 224, 224);
+    
+    
+}
+.skills
+{
+    position: absolute;
+    top: 70px;
+    left: 430px;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 50px;
+    
+}
+.edu-skills
+{
+    position: absolute;
+    width: 250px;
+    font-family: poppins;
+    font-weight: 800;
+    font-size: 27px;
+    top: 200px;
+    
+}
+.skill-description
+{
+    width: 800px;
+    position: absolute;
+    font-family: poppins;
+    font-weight: 600;
+    color: gray;
+    top: 260px;
+    
+}
+.education-button
+{
+    position: absolute;
+    top: 360px;
+    width: 100px;
+    height: 28px;
+    border: none;
+    background-color: #625CB6;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    color: white;
+    
+
+}
+.skills-button
+{
+    position: absolute;
+    top: 360px;
+    left: 450px;
+    width: 70px;
+    height: 28px;
+    border: none;
+    background-color: #625CB6;
+    font-size: 15px;
+    border-radius: 5px;
+    color: white;
+    font-family: poppins;
+    font-weight: 500;
+
+}
+
+
+.certification-button
+{
+
+    position: absolute;
+    top: 360px;
+    left: 750px;
+    width: 100px;
+    height: 28px;
+    border: none;
+    background-color: #625CB6;
+    font-size: 15px;
+    border-radius: 5px;
+    color: white;
+    font-family: poppins;
+    font-weight: 500;
+
+}
+.edu-box-one p
+{
+    margin: 5px 0px 5px 0px;
+}
+.edu-box-two p
+{
+    margin: 5px 0px 5px 0px;
+}
+.edu-box-three p
+{
+    margin: 5px 0px 5px 0px;
+}
+
+.edu-box-one
+{
+    width: 380px;
+    height: 100px;
+    position: absolute;
+    background-color: rgb(251, 251, 251);
+    top: 400px;
+    padding: 5px 15px 0px 15px;
+    
+    border-bottom:3px solid #625CB6;
+    border-radius: 5px;
+    box-shadow: 2px 3px 14px 3px rgba(208, 208, 208, 0.7);
+
+    
+}
+
+.edu-box-two
+{
+    width: 380px;
+    height: 100px;
+    position: absolute;
+    background-color: rgb(251, 251, 251);
+    top: 520px;
+    padding: 5px 15px 0px 15px;
+    border-bottom:3px solid #625CB6;
+    border-radius: 5px;
+    box-shadow: 2px 3px 14px 3px rgba(208, 208, 208, 0.7);
+
+    
+}
+
+.edu-box-three
+{
+    width: 380px;
+    height: 100px;
+    position: absolute;
+    background-color: rgb(251, 251, 251);
+    top: 640px;
+    padding: 5px 15px 0px 15px;
+    border-bottom:3px solid #625CB6;
+    border-radius: 5px;
+    box-shadow: 2px 3px 14px 3px rgba(208, 208, 208, 0.7);
+
+    
+}
+.skill-box-one p
+{
+    margin-left: 15px;
+    
+    display: flex;
+    justify-content: left;
+    
+}
+.skill-box-one
+{
+    width: 150px;
+    height: 275px;
+    position: absolute;
+    top: 400px;
+    left: 570px;
+    background-color: rgb(251, 251, 251);
+    
+    
+    padding-left: 35px;
+    padding-top: 30px;
+    box-shadow: 2px 3px 14px 3px rgba(208, 208, 208, 0.7);
+    border-bottom: 3px solid #625CB6;
+    border-radius: 5px;
+}
+
+.verified
+{
+    
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 18px;
+    
+}
+.verified-html
+{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 45px;
+    left: 18px;
+    
+}
+.certification-box-one p
+{
+    margin: 0;
+    line-height: 25px;
+}
+.cert-box-one
+{
+    display: flex;
+    width: 350px;
+    height: 80px;
+    position: absolute;
+    top: 400px;
+    left: 750px;
+    background-color: rgb(251, 251, 251);
+    padding-left: 35px;
+    box-shadow: 2px 3px 14px 3px rgba(208, 208, 208, 0.7);
+    border-bottom: 3px solid #625CB6;
+    border-radius: 5px;
+    justify-content:left;
+    align-items:center;
+    
+}
+.cert-box-two
+{
+    display: flex;
+    width: 350px;
+    height: 80px;
+    position: absolute;
+    top: 95px;
+    right: 0px;
+    background-color: rgb(251, 251,251);
+    padding-left: 35px;
+    box-shadow: 2px 3px 14px 3px rgba(208, 208, 208, 0.7);
+    border-bottom: 3px solid #625CB6;
+    border-radius: 5px;
+    justify-content:left;
+    align-items:center;
+}
+.cert-box-three
+{
+    display: flex;
+    width: 350px;
+    height: 80px;
+    position: absolute;
+    top: 190px;
+    right: 0px;
+    background-color: rgb(251, 251,251);
+    padding-left: 35px;
+    box-shadow: 2px 3px 14px 3px rgba(208, 208, 208, 0.7);
+    border-bottom: 3px solid #625CB6;
+    border-radius: 5px;
+    justify-content:left;
+    align-items:center;
+
+}
