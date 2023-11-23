@@ -71,7 +71,7 @@ body
 }
 .right-section a
 {
-    colour:black;
+    color:black;
     transition: 0.12s;
 }
 .right-section p:hover
